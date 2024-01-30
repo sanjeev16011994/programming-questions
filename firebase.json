@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "site": "programming-questions1994",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
+
+
