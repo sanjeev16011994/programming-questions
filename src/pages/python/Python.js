@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { PYTHON } from "../../assets/data";
-import html from "../../assets/images/html.png";
+import python from "../../assets/images/python.png";
 
 const Python = () => {
   const [id, setId] = useState("");
@@ -8,7 +8,7 @@ const Python = () => {
   return (
     <div className="css-container">
       <div className="heading-info">
-        <img src={html} alt="css" width={"80px"} height={"80px"} />
+        <img src={python} alt="css" width={"80px"} height={"80px"} />
         <h3>Python Questions</h3>
       </div>
       <div>
